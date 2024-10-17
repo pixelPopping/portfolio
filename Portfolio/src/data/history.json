@@ -1,0 +1,17 @@
+[
+  {
+    "role": "Frontend developer student",
+    "organisation": "Winc Academy",
+    "startDate": "December",
+    "endDate": "Present",
+    "experiences": [
+      "basic HTML",
+      "basic CSS",
+      "CSS Advance",
+      "basic REACT",
+      "React Advance",
+      "VScode"
+    ],
+    "imageSrc": "history/winclogo.jpeg"
+  }
+]

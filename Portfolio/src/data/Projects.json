@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Dating website ",
+    "imageSrc": "projects/project.png",
+    "description": "in this project i made  the HTML and CSS for a webpage with multiple pages styled with CSS.",
+    "skills": ["HTML", "CSS"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/pixelPopping/Oblivion"
+  },
+  {
+    "title": "The dating app",
+    "imageSrc": "projects/project.png",
+    "description": "This app is made with javascript and runs in the console and is the basic for a dating app.",
+    "skills": ["Javascript"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Project web-page",
+    "imageSrc": "projects/project.png",
+    "description": "The purpose of this project was to develop a design whit the use of grid areas .",
+    "skills": ["CSS grid"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Recipe management system",
+    "imageSrc": "projects/project.png",
+    "description": "this project runs in the console and is a recipe book, there is a menu of options you can choose of, its possible to save the recipe and make a grocery list .",
+    "skills": ["Javascript"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "React website",
+    "imageSrc": "projects/project.png",
+    "description": "This project is made in react and is a webpage of recipes/dieets/nuterionlist/ and is styled with chakara.",
+    "skills": ["React", "Jsx"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]

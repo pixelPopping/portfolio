@@ -5,7 +5,7 @@
     "description": "in this project i made  the HTML and CSS for a webpage with multiple pages styled with CSS.",
     "skills": ["HTML", "CSS"],
     "demo": "https://www.example.com",
-    "source": "https://github.com/pixelPopping/Oblivion"
+    "source": "https://replit.com/@sydney-cook/OblivionCSSfinal"
   },
   {
     "title": "The dating app",
@@ -13,7 +13,7 @@
     "description": "This app is made with javascript and runs in the console and is the basic for a dating app.",
     "skills": ["Javascript"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://replit.com/@sydney-cook/TheWolfOfJavaScript-final-work#index.js"
   },
   {
     "title": "Project web-page",
@@ -21,7 +21,7 @@
     "description": "The purpose of this project was to develop a design whit the use of grid areas .",
     "skills": ["CSS grid"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/pixelPopping/Project-Grid-webpage"
   },
   {
     "title": "Recipe management system",
@@ -29,7 +29,7 @@
     "description": "this project runs in the console and is a recipe book, there is a menu of options you can choose of, its possible to save the recipe and make a grocery list .",
     "skills": ["Javascript"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://replit.com/@sydney-cook/FindGrannydollarSecretCakeButter1"
   },
   {
     "title": "React website",
@@ -37,6 +37,6 @@
     "description": "This project is made in react and is a webpage of recipes/dieets/nuterionlist/ and is styled with chakara.",
     "skills": ["React", "Jsx"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/pixelPopping/FoodBook/tree/main/react-basics-project-starter/src"
   }
 ]

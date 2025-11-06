@@ -1,89 +1,41 @@
 import PropTypes from "prop-types";
-import {
-  Box,
-  Image,
-  Heading,
-  Text,
-  VStack,
-  Link,
-  List,
-  ListItem,
-} from "@chakra-ui/react";
+import styles from "./ProjectCard.module.css";
 import { getImageUrl } from "../../utils";
 
-export const ProjectCard = ({ project }) => {
-  console.log("ProjectCard component rendered with project:", project);
-
-  const { title, imageSrc, description, skills, demo, source } = project;
-
+export const ProjectCard = ({
+  project: { title, imageSrc, description, skills, demo, source },
+}) => {
   return (
-    <Box
-      bg="white"
-      borderRadius="lg"
-      shadow="sm"
-      p={6}
-      maxW="md"
-      mx="auto"
-      _hover={{
-        shadow: "md",
-        transform: "scale(1.05)",
-        transition: "all 0.2s",
-      }}
-    >
-      <Image
+    <div className={styles.container}>
+      <img
         src={getImageUrl(imageSrc)}
         alt={`Image of ${title}`}
-        borderRadius="md"
-        mb={4}
+        className={styles.image}
       />
-      <Heading as="h3" size="lg" mb={2}>
-        {title}
-      </Heading>
-      <Text fontSize="md" color="gray.600" mb={4}>
-        {description}
-      </Text>
-      <VStack align="start" spacing={2} mb={4}>
-        <Heading as="h4" size="sm" color="teal.500">
-          Skills
-        </Heading>
-        <List spacing={2}>
-          {skills?.map((skill, id) => (
-            <ListItem key={id} fontSize="sm" color="gray.700">
+      <h3 className={styles.title}>{title}</h3>
+      <p className={styles.description}>{description}</p>
+      <ul className={styles.skills}>
+        {skills.map((skill, id) => {
+          return (
+            <li key={id} className={styles.skill}>
               {skill}
-            </ListItem>
-          ))}
-        </List>
-      </VStack>
-      <VStack spacing={4} direction="row" align="center">
-        {demo && (
-          <Link
-            href={demo}
-            target="_blank"
-            rel="noopener noreferrer"
-            color="teal.500"
-            fontWeight="bold"
-            _hover={{ textDecoration: "underline" }}
-          >
-            Demo
-          </Link>
-        )}
-        {source && (
-          <Link
-            href={source}
-            target="_blank"
-            rel="noopener noreferrer"
-            color="teal.500"
-            fontWeight="bold"
-            _hover={{ textDecoration: "underline" }}
-          >
-            Source
-          </Link>
-        )}
-      </VStack>
-    </Box>
+            </li>
+          );
+        })}
+      </ul>
+      <div className={styles.links}>
+        <a href={demo} className={styles.link}>
+          Demo
+        </a>
+        <a href={source} className={styles.link}>
+          Source
+        </a>
+      </div>
+    </div>
   );
 };
 
+// Prop validation
 ProjectCard.propTypes = {
   project: PropTypes.shape({
     title: PropTypes.string.isRequired,

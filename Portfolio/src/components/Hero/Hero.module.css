@@ -50,18 +50,23 @@
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
 }
 
-.heroImage {
-  width: 40%;
-  height: 40%;
-  z-index: 1;
-  border-radius: 100%;
-
-  animation-name: floating;
+/* Hero Image Styles */
+.heroImg {
+  width: 40%; /* Default size (40% of container width) */
+  max-width: 500px; /* Optional: set a max-width for the image */
+  height: auto; /* Maintain aspect ratio */
+  z-index: 1; /* Ensures the image stays above the blur effects */
+  border-radius: 100%; /* Make the image circular */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  animation-name: floating; /* Floating effect */
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+  object-fit: cover; /* Ensure the image fills the circular area without distortion */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
 }
 
+/* Floating effect animation */
 @keyframes floating {
   0% {
     transform: translate(0, 0px);
@@ -74,11 +79,16 @@
   }
 }
 
+/* Hover Effect: Slight zoom on hover */
+.heroimg:hover {
+  transform: scale(1.05); /* Slight zoom effect */
+  box-shadow: 0 6px 40px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
 .topBlur {
   position: absolute;
   width: 50vw;
   height: 50vw;
-  min-width: 350px;
   min-width: 350px;
   top: -128px;
   left: -10vw;
@@ -93,7 +103,6 @@
   width: 70vw;
   height: 50vw;
   min-width: 350px;
-  min-width: 250px;
   top: 264px;
   right: -25vw;
   border-radius: 764px;
@@ -102,11 +111,18 @@
   z-index: 0;
 }
 
+/* Responsive Adjustment for Smaller Screens */
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
   }
   .content {
     align-items: center;
+  }
+  .heroImg {
+    width: 60%; /* Increase width for smaller screens */
+    max-width: 400px; /* Optional: cap the width for mobile */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Add space between the text and image */
   }
 }

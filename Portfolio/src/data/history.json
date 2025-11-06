@@ -2,8 +2,8 @@
   {
     "role": "Front-end developer student",
     "organisation": "Winc Academy",
-    "startDate": "December",
-    "endDate": "Present",
+    "startDate": "05-12-2-24",
+    "endDate": "01-12-2025",
     "experiences": [
       "basic HTML",
       "basic CSS",
@@ -13,5 +13,28 @@
       "VScode"
     ],
     "imageSrc": "history/winclogo.jpeg"
+  },
+  {
+    "role": "Webdeveloper student",
+    "organisation": "Novi Hogeschool ",
+    "startDate": "01-04-2025",
+    "endDate": "Present",
+    "experiences": [
+      "HTML",
+      "CSS",
+      "REACT",
+      "props destructing",
+      "Axios",
+      "Api requests",
+      "React-form",
+      "React browserroute",
+      "State management",
+      "Context",
+      "Authenticatie",
+      "Data persistence",
+      "swagger",
+      "Git/Github",
+      "Webstorm"
+    ]
   }
 ]

@@ -1,24 +1,10 @@
 [
   {
-    "title": "The dating app",
-    "imageSrc": "projects/project.png",
-    "description": "This app is made with javascript and runs in the console and is the basic for a dating app.",
-    "skills": ["Javascript"],
-    "source": "https://replit.com/@sydney-cook/TheWolfOfJavaScript-final-work#index.js"
-  },
-  {
     "title": "Recipe management system",
     "imageSrc": "projects/project.png",
     "description": "this project runs in the console and is a recipe book, there is a menu of options you can choose of, its possible to save the recipe and make a grocery list .",
     "skills": ["Javascript"],
     "source": "https://replit.com/@sydney-cook/FindGrannydollarSecretCakeButter1"
-  },
-  {
-    "title": "FoodBook",
-    "imageSrc": "projects/project.png",
-    "description": "This webaplicatie is made with vite REACT jsx",
-    "skills": ["REACT"],
-    "source": "https://github.com/pixelPopping/FoodBook"
   },
   {
     "title": "Event Page",
@@ -30,8 +16,15 @@
   {
     "title": "CrapShop",
     "imageSrc": "projects/project.png",
-    "description": "This webaplicatie is made with vite REACT jsx and is the final project of Novi HBO",
-    "skills": ["REACT"],
+    "description": "This webaplicatie is made with vite REACT jsx and is the final project of Novi HBO Front-end",
+    "skills": ["React useState Axios Context Reactform Reactbrowser route "],
     "source": "https://github.com/pixelPopping/CrapShop-"
+  },
+  {
+    "title": "NoviNaut in space",
+    "imageSrc": "projects/project.png",
+    "description": "Space Planner is write in Python and is the final project of Novi HBO Program Fundamentals",
+    "skills": ["Python Api requests"],
+    "source": "https://github.com/pixelPopping/project-phyton"
   }
 ]

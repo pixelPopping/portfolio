@@ -1,30 +1,45 @@
 [
   {
-    "title": "Recipe management system",
+    "title": "NoviNaut in Space Full-Stack Applicatie",
     "imageSrc": "projects/project.png",
-    "description": "this project runs in the console and is a recipe book, there is a menu of options you can choose of, its possible to save the recipe and make a grocery list .",
-    "skills": ["Javascript"],
-    "source": "https://replit.com/@sydney-cook/FindGrannydollarSecretCakeButter1"
+    "description": "This is the Full-Stack version of NoviNaut in space with a backend and database",
+    "skills": [
+      "React",
+      "Axios",
+      "Context",
+      "React Router",
+      "React Hook Form",
+      "JavaScript",
+      "Python",
+      "Flask",
+      "MongoDB",
+      "Mongoose"
+    ],
+    "demo": "https://novinaut.vercel.app",
+    "source": "https://github.com/pixelPopping/frontend.vs.python"
   },
   {
-    "title": "Event Page",
-    "imageSrc": "projects/project.png",
-    "description": "This webaplicatie is made with vite REACT jsx and is the final project of winc academy",
-    "skills": ["REACT"],
-    "source": "https://github.com/pixelPopping/ReactAdvanceProject"
+    "title": "Weather App",
+    "imageSrc": "projects/weather.png",
+    "description": "Weather application using OpenWeather API",
+    "skills": [
+      "React",
+      "CSS",
+      "API"
+    ],
+    "demo": "https://weather-app.vercel.app",
+    "source": "https://github.com/jouwnaam/weather-app"
   },
   {
-    "title": "CrapShop",
-    "imageSrc": "projects/project.png",
-    "description": "This webaplicatie is made with vite REACT jsx and is the final project of Novi HBO Front-end",
-    "skills": ["React useState Axios Context Reactform Reactbrowser route "],
-    "source": "https://github.com/pixelPopping/CrapShop-"
-  },
-  {
-    "title": "NoviNaut in space",
-    "imageSrc": "projects/project.png",
-    "description": "Space Planner is write in Python and is the final project of Novi HBO Program Fundamentals",
-    "skills": ["Python Api requests"],
-    "source": "https://github.com/pixelPopping/project-phyton"
+    "title": "Task Manager",
+    "imageSrc": "projects/taskmanager.png",
+    "description": "Task management application with CRUD functionality",
+    "skills": [
+      "React",
+      "Node.js",
+      "MongoDB"
+    ],
+    "demo": "https://task-manager.vercel.app",
+    "source": "https://github.com/jouwnaam/task-manager"
   }
 ]

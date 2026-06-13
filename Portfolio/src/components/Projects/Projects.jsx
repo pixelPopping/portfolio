@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
-import styles from "./project.module.css";
-import projects from "../../data/projects.json";
+import styles from "./Projects.module.css";
+import projects from "../../data/Projects.json";
 import { ProjectCard } from "./ProjectCard";
 
 // Projects Component

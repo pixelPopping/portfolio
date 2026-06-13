@@ -10,17 +10,17 @@ export const Contact = () => {
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
-          <img src={getImageUrl("contact/mail.png")} alt="Email icon" />
+          <img src={getImageUrl("Contact/mail.png")} alt="Email icon" />
           <a href="mailto:sydney-cook@outlook.com">sydney-cook@outlook.com</a>
         </li>
         <li className={styles.link}>
-          <img src={getImageUrl("contact/linkedin.png")} alt="LinkedIn icon" />
+          <img src={getImageUrl("Contact/linkedin.png")} alt="LinkedIn icon" />
           <a href="https://www.linkedin.com/in/yorian-fransz-58111527b/">
             linkedin.com/yorian-fransz
           </a>
         </li>
         <li className={styles.link}>
-          <img src={getImageUrl("contact/github.png")} alt="GitHub icon" />
+          <img src={getImageUrl("Contact/github.png")} alt="GitHub icon" />
           <a href="https://www.github.com/Pixelpopping">
             github.com/PixelPopping
           </a>

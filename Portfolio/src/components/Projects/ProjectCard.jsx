@@ -8,7 +8,12 @@ export const ProjectCard = ({
   console.log("PROJECT:", title);
   console.log("DEMO:", demo);
   console.log("SOURCE:", source);
-
+console.log({
+  title,
+  imageSrc,
+  demo,
+  source,
+});
   return (
     <div className={styles.container}>
       <img

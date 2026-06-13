@@ -44,16 +44,12 @@ export const ProjectCard = ({
       </ul>
 
       <div className={styles.links}>
-        <a
-          href={demo}
-          target="_blank"
-          rel="noopener noreferrer"
-          className={styles.link}
-          onClick={() => console.log("Demo clicked:", demo)}
-        >
-          Live Demo
-        </a>
-
+        <div className={styles.links}>
+  <button onClick={() => alert("Demo werkt")}>
+    Test Button
+  </button>
+</div>
+    
         <a
           href={source}
           target="_blank"

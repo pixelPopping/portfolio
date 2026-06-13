@@ -5,6 +5,10 @@ import { getImageUrl } from "../../utils";
 export const ProjectCard = ({
   project: { title, imageSrc, description, skills, demo, source },
 }) => {
+  console.log("PROJECT:", title);
+  console.log("DEMO:", demo);
+  console.log("SOURCE:", source);
+
   return (
     <div className={styles.container}>
       <img
@@ -17,6 +21,20 @@ export const ProjectCard = ({
 
       <p className={styles.description}>{description}</p>
 
+      {/* DEBUG */}
+      <div
+        style={{
+          background: "#222",
+          color: "white",
+          padding: "10px",
+          marginBottom: "10px",
+          wordBreak: "break-all",
+        }}
+      >
+        <p><strong>Demo:</strong> {String(demo)}</p>
+        <p><strong>Source:</strong> {String(source)}</p>
+      </div>
+
       <ul className={styles.skills}>
         {skills.map((skill, id) => (
           <li key={id} className={styles.skill}>
@@ -26,22 +44,22 @@ export const ProjectCard = ({
       </ul>
 
       <div className={styles.links}>
-        {demo && (
-          <a
-            href={demo}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.link}
-          >
-            Live Demo
-          </a>
-        )}
+        <a
+          href={demo}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.link}
+          onClick={() => console.log("Demo clicked:", demo)}
+        >
+          Live Demo
+        </a>
 
         <a
           href={source}
           target="_blank"
           rel="noopener noreferrer"
           className={styles.link}
+          onClick={() => console.log("GitHub clicked:", source)}
         >
           GitHub
         </a>

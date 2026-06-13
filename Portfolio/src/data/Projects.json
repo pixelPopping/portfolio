@@ -19,8 +19,8 @@
     "source": "https://github.com/pixelPopping/frontend.vs.python"
   },
   {
-    "title": "Weather App",
-    "imageSrc": "projects/weather.png",
+    "title": "Weather",
+    "imageSrc": "projects/project.png",
     "description": "Weather application using OpenWeather API",
     "skills": [
       "React",
@@ -32,7 +32,7 @@
   },
   {
     "title": "Task Manager",
-    "imageSrc": "projects/taskmanager.png",
+    "imageSrc": "projects/project.png",
     "description": "Task management application with CRUD functionality",
     "skills": [
       "React",

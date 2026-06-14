@@ -1,5 +1,5 @@
 import { getImageUrl } from "../../utils"; // import getImageUrl
-import styles from "./contact.module.css";
+import styles from "./Contact.module.css";
 
 export const Contact = () => {
   return (

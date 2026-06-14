@@ -1,5 +1,5 @@
 import { getImageUrl } from "../../utils";
-import styles from "./about.module.css";
+import styles from "./About.module.css";
 
 export const About = () => {
   return (
@@ -12,8 +12,8 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
               <p>
-                Im a Frontend student with experience in HTML, CSS, basic
-                JavaScript, and basic React.
+                Im a Junior Frontend developer  with the skillset  in HTML||CSS||
+                JavaScript||React||Python
               </p>
             </div>
           </li>

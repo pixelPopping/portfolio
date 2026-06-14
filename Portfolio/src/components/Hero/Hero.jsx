@@ -7,7 +7,7 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, Im Yorian</h1>
         <p className={styles.description}>
-          I am a Front-end developer student from the Netherlands. In my
+          I am a Junior Front-end developer from the Netherlands. In my
           previous career I worked as a chef and showcased my creativity in
           cooking. Now Im studying web development, and I am eager to learn the
           world of ICT.

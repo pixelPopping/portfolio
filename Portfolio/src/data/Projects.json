@@ -1,37 +1,45 @@
 [
   {
-    "title": "The dating app",
+    "title": "NoviNaut in Space Full-Stack Applicatie",
     "imageSrc": "projects/project.png",
-    "description": "This app is made with javascript and runs in the console and is the basic for a dating app.",
-    "skills": ["Javascript"],
-    "source": "https://replit.com/@sydney-cook/TheWolfOfJavaScript-final-work#index.js"
+    "description": "This is the Full-Stack version of NoviNaut in space with a backend and database",
+    "skills": [
+      "React",
+      "Axios",
+      "Context",
+      "React Router",
+      "React Hook Form",
+      "JavaScript",
+      "Python",
+      "Flask",
+      "MongoDB",
+      "Mongoose"
+    ],
+    "demo": "https://portfolio-sno7.vercel.app",
+    "source": "https://github.com/pixelPopping/frontend.vs.python"
   },
   {
-    "title": "Recipe management system",
+    "title": "Weather",
     "imageSrc": "projects/project.png",
-    "description": "this project runs in the console and is a recipe book, there is a menu of options you can choose of, its possible to save the recipe and make a grocery list .",
-    "skills": ["Javascript"],
-    "source": "https://replit.com/@sydney-cook/FindGrannydollarSecretCakeButter1"
+    "description": "Weather application using OpenWeather API",
+    "skills": [
+      "React",
+      "CSS",
+      "API"
+    ],
+    "demo": "https://weather-app.vercel.app",
+    "source": "https://github.com/jouwnaam/weather-app"
   },
   {
-    "title": "FoodBook",
+    "title": "Task Manager",
     "imageSrc": "projects/project.png",
-    "description": "This webaplicatie is made with vite REACT jsx",
-    "skills": ["REACT"],
-    "source": "https://github.com/pixelPopping/FoodBook"
-  },
-  {
-    "title": "Event Page",
-    "imageSrc": "projects/project.png",
-    "description": "This webaplicatie is made with vite REACT jsx and is the final project of winc academy",
-    "skills": ["REACT"],
-    "source": "https://github.com/pixelPopping/ReactAdvanceProject"
-  },
-  {
-    "title": "CrapShop",
-    "imageSrc": "projects/project.png",
-    "description": "This webaplicatie is made with vite REACT jsx and is the final project of Novi HBO",
-    "skills": ["REACT"],
-    "source": "https://github.com/pixelPopping/CrapShop-"
+    "description": "Task management application with CRUD functionality",
+    "skills": [
+      "React",
+      "Node.js",
+      "MongoDB"
+    ],
+    "demo": "https://task-manager.vercel.app",
+    "source": "https://github.com/jouwnaam/task-manager"
   }
 ]

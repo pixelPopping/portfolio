@@ -15,31 +15,38 @@
       "MongoDB",
       "Mongoose"
     ],
-    "demo": "https://portfolio-sno7.vercel.app",
+    "demo": "portfolio-efunr80o1-yorian-fransz-s-projects.vercel.app",
     "source": "https://github.com/pixelPopping/frontend.vs.python"
   },
   {
-    "title": "Weather",
+    "title": "NoviNaut in Space",
     "imageSrc": "projects/project.png",
-    "description": "Weather application using OpenWeather API",
+    "description": "this project is a command line applicatie write in python and is the final project program fundamentels Novi- hoge school",
     "skills": [
       "React",
-      "CSS",
-      "API"
+      "API",
+      "Python",
+      "JavaScript"
     ],
-    "demo": "https://weather-app.vercel.app",
-    "source": "https://github.com/jouwnaam/weather-app"
+    "source": "https://github.com/pixelPopping/project-phyton-main-main"
   },
   {
-    "title": "Task Manager",
+    "title": "CrapShop",
     "imageSrc": "projects/project.png",
-    "description": "Task management application with CRUD functionality",
+    "description": "This is a webshop the final project of Novi-hoge school hbo",
     "skills": [
       "React",
+      "State management",
       "Node.js",
-      "MongoDB"
+      "JavaScript",
+      "JSX",
+      "Axios",
+      "Context",
+      "React Hook Form",
+      "React browser route",
+      "Swagger",
+      "Figma"
     ],
-    "demo": "https://task-manager.vercel.app",
-    "source": "https://github.com/jouwnaam/task-manager"
+    "source": "https://github.com/pixelPopping/CrapShop-"
   }
 ]

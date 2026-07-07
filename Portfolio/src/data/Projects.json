@@ -13,7 +13,8 @@
       "Python",
       "Flask",
       "MongoDB",
-      "Mongoose"
+      "Mongoose",
+      "vitest"
     ],
     "source": "https://github.com/pixelPopping/frontend.vs.python"
   },

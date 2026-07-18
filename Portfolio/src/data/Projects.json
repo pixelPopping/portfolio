@@ -48,5 +48,24 @@
       "Figma"
     ],
     "source": "https://github.com/pixelPopping/CrapShop-"
+  },
+   {
+    "title": "CrapShop.Full-Stack",
+    "imageSrc": "projects/project.png",
+    "description": "This is the Full-Stack version of Crapshop in development",
+    "skills": [
+      "React",
+      "State management",
+      "Node.js",
+      "JavaScript",
+      "JSX",
+      "Axios",
+      "Context",
+      "React Hook Form",
+      "React browser route",
+      "Swagger",
+      "Figma"
+    ],
+    "source": "https://github.com/pixelPopping/Crapshop.Fullstack.git"
   }
 ]

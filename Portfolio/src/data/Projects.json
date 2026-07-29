@@ -64,7 +64,15 @@
       "React Hook Form",
       "React browser route",
       "Swagger",
-      "Figma"
+      "Figma",
+      "JWT",
+      "inputvalidation errorhandling",
+      "CRUD-operations",
+      "Datamigration",
+      "SQL-query's",
+      "Indexing and query-Optimalisation",
+      "Back-ups and recovery",
+      "Debug"
     ],
     "source": "https://github.com/pixelPopping/Crapshop.Fullstack.git"
   }

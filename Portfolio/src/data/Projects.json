@@ -41,7 +41,7 @@
       "JavaScript",
       "JSX",
       "Axios",
-      "Context",
+      "Context API",
       "React Hook Form",
       "React browser route",
       "Swagger",
@@ -54,6 +54,7 @@
     "imageSrc": "projects/project.png",
     "description": "This is the Full-Stack version of Crapshop in development",
     "skills": [
+      "Css Modules",
       "JWT-authenticatie",
       "inputvalidation errorhandling",
       "CRUD-operations",
@@ -63,7 +64,11 @@
       "Back-ups and recovery",
       "Debug",
       "postman",
-      "Stripe payment"
+      "Stripe payment",
+      "Jest",
+      "React Testing Libary",
+      "API Mocking",
+      "Async Testing"
     ],
     "source": "https://github.com/pixelPopping/Crapshop.Fullstack.git"
   }

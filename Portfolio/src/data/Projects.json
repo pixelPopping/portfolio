@@ -2,7 +2,7 @@
   {
     "title": "NoviNaut in Space Full-Stack Applicatie",
     "imageSrc": "projects/project.png",
-    "description": "This is the Full-Stack version of NoviNaut in space with a backend and database",
+    "description": "This is the Full-Stack version of NoviNaut in Space with a backend and database.",
     "skills": [
       "React",
       "Axios",
@@ -14,14 +14,14 @@
       "Flask",
       "MongoDB",
       "Mongoose",
-      "vitest"
+      "Vitest"
     ],
     "source": "https://github.com/pixelPopping/frontend.vs.python"
   },
   {
     "title": "NoviNaut in Space",
     "imageSrc": "projects/project.png",
-    "description": "this project is a command line applicatie write in python and is the final project program fundamentels Novi- hoge school",
+    "description": "This project is a command-line application written in Python and was the final project for Programming Fundamentals at Novi Hogeschool.",
     "skills": [
       "React",
       "API",
@@ -33,43 +33,45 @@
   {
     "title": "CrapShop",
     "imageSrc": "projects/project.png",
-    "description": "This is a webshop the final project of Novi-hoge school hbo",
+    "description": "This is a webshop and the final project for the HBO program at Novi Hogeschool.",
     "skills": [
       "React",
-      "State management",
+      "State Management",
       "Node.js",
       "JavaScript",
       "JSX",
       "Axios",
       "Context API",
       "React Hook Form",
-      "React browser route",
+      "React Browser Router",
       "Swagger",
       "Figma"
     ],
     "source": "https://github.com/pixelPopping/CrapShop-"
   },
-   {
-    "title": "Stella@Bakkery.Full-Stack",
+  {
+    "title": "Stella@Bakery Full-Stack",
     "imageSrc": "projects/project.png",
-    "description": "This is the Full-Stack version of Crapshop in development",
+    "description": "This is the Full-Stack version of CrapShop, currently in development.",
     "skills": [
-      "Css Modules",
-      "JWT-authenticatie",
-      "inputvalidation errorhandling",
-      "CRUD-operations",
-      "Datamigration",
-      "SQL-query's",
-      "Indexing and query-Optimalisation",
-      "Back-ups and recovery",
-      "Debug",
-      "postman",
-      "Stripe payment",
+      "CSS Modules",
+      "JWT Authentication",
+      "Input Validation",
+      "Error Handling",
+      "CRUD Operations",
+      "Data Migration",
+      "SQL Queries",
+      "Indexing and Query Optimization",
+      "Backups and Recovery",
+      "Debugging",
+      "Postman",
+      "Stripe Payments",
       "Jest",
-      "React Testing Libary",
+      "React Testing Library",
       "API Mocking",
       "Async Testing"
     ],
-    "source": "https://github.com/pixelPopping/Crapshop.Fullstack.git"
+    "source": "https://github.com/pixelPopping/Crapshop.Fullstack.git",
+    "demo": "https://crapshop-fullstack-kefw-28g71tfbo-yorian-fransz-s-projects.vercel.app"
   }
 ]

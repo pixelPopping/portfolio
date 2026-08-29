@@ -16,7 +16,8 @@
       "Mongoose",
       "Vitest"
     ],
-    "source": "https://github.com/pixelPopping/frontend.vs.python"
+    "source": "https://github.com/pixelPopping/frontend.vs.python",
+    "demo": "https://frontend-vs-python-13.onrender.com/"
   },
   {
     "title": "NoviNaut in Space",

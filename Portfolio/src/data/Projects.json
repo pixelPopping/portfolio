@@ -20,37 +20,6 @@
     "demo": "https://frontend-vs-python-13.onrender.com/"
   },
   {
-    "title": "NoviNaut in Space",
-    "imageSrc": "projects/project.png",
-    "description": "This project is a command-line application written in Python and was the final project for Programming Fundamentals at Novi Hogeschool.",
-    "skills": [
-      "React",
-      "API",
-      "Python",
-      "JavaScript"
-    ],
-    "source": "https://github.com/pixelPopping/project-phyton-main-main"
-  },
-  {
-    "title": "CrapShop",
-    "imageSrc": "projects/project.png",
-    "description": "This is a webshop and the final project for the HBO program at Novi Hogeschool.",
-    "skills": [
-      "React",
-      "State Management",
-      "Node.js",
-      "JavaScript",
-      "JSX",
-      "Axios",
-      "Context API",
-      "React Hook Form",
-      "React Browser Router",
-      "Swagger",
-      "Figma"
-    ],
-    "source": "https://github.com/pixelPopping/CrapShop-"
-  },
-  {
     "title": "Stella@Bakery Full-Stack",
     "imageSrc": "projects/project.png",
     "description": "This is the Full-Stack version of CrapShop, currently in development.",
